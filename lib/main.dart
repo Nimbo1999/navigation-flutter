@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import './pages/categories.dart';
 import './pages/route.dart';
 
 void main() => runApp(MyApp());
@@ -29,8 +28,7 @@ class MyApp extends StatelessWidget {
           )
         )
       ),
-      home: CategoriesScreen(),
-      routes: Routes,
+      routes: routes,
     );
   }
 }
