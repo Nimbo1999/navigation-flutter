@@ -83,7 +83,7 @@ class MealItem extends StatelessWidget {
                           child: CircularProgressIndicator(
                             value: loadingProgress.expectedTotalBytes != null 
                                       ? loadingProgress.cumulativeBytesLoaded / loadingProgress.expectedTotalBytes
-                                      : 1,
+                                      : 0.1,
                           ),
                         ),
                         height: 250,
